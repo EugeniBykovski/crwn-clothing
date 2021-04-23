@@ -1,0 +1,26 @@
+.cart-item {
+  width: 100%;
+  margin-bottom: 15px;
+
+  display: flex;
+  height: 80px;
+
+  img {
+    width: 30%;
+  }
+
+  .item-details {
+    width: 70%;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+    .name {
+      font-size: 16px;
+    }
+  }
+}
