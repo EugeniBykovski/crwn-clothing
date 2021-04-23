@@ -1,4 +1,6 @@
 .collection-item {
+  position: relative;
+  
   width: 22%;
   height: 350px;
 
@@ -13,6 +15,28 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+  }
+
+  .custom-button {
+    position: absolute;
+    display: none;
+
+    width: 80%;
+    top: 255px;
+
+    opacity: .7;
+  }
+
+  &:hover {
+    .image {
+      opacity: .8;
+    }
+
+    .custom-button {
+      display: flex;
+      
+      opacity: .85;
+    }
   }
 
   .collection-footer {
